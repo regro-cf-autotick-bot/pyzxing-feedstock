@@ -1,5 +1,5 @@
 {% set name = "pyzxing" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyzxing-{{ version }}.tar.gz
-  sha256: ac9efa22fce567e3f4234cd6392a1aa2e01fef6ec62753e57cf9038a9c64a231
+  sha256: 099c4eab126b19e418835f3c89411d0d8522ad8efd5c81ce378c9110008cdde9
 
 build:
   number: 0
